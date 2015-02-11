@@ -9,3 +9,12 @@ As he puts more energy in to trying to separate from me it finally reaches a poi
 ##Idea for transition
 When the countdown reaches zero have the whole screen and everything fade to black then play a percussion ensemble,
 cresciendoing in to the start of that video segment
+
+###Episode 1
+Tanner suddenly notices this figure dressed somewhat like him but not quite, very close to him but not doing anything and it totally freaks him out. He attempts to run away but is unable to separate himself. 
+
+###Episode 2
+Tanner learns to put more energy in to running away but somehow it always leads back to violently coming back in to contact with this other.
+
+###Episode 3
+Tanner puts so much energy in to separation that not only does the other find him again but there is no a perfect duplicate of him and the other making 4 total personas.
