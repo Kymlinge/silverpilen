@@ -18,3 +18,5 @@ Tanner learns to put more energy in to running away but somehow it always leads 
 
 ###Episode 3
 Tanner puts so much energy in to separation that not only does the other find him again but there is no a perfect duplicate of him and the other making 4 total personas.
+
+If there was a dead one of us on the side, they could be decay. 
