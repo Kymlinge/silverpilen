@@ -1,4 +1,6 @@
-https://codeship.com/projects/10cdc440-9569-0132-d4fc-466960a0e7d2/status?branch=master
+
+[ ![Codeship Status for Kymlinge/silverpilen](https://codeship.com/projects/10cdc440-9569-0132-d4fc-466960a0e7d2/status?branch=master)](https://codeship.com/projects/62818)
+
 
 # silverpilen
 
