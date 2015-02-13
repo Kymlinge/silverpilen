@@ -23,12 +23,30 @@ If there was a dead one of us on the side, they could be decay.
 
 ###Times and Numbers
 
+Kymlinge
+"The name is known since <b>1347</b>, then as Kymmelinghe."
+<b>59.3944° N, 17.9650° E</b>   -Kymlinge, Coordinates
+
 Silverpilen
+"The train was used in the <b>1993</b> film Sökarna ("The Seekers") a film which took place in Stockholm. In the film, neo-Nazis supporters can be seen abusing immigrants on Silverpilen as it approaches Kungsträdgården metro station. <b>Two</b> people are later killed as they get pushed onto the track by the neo-Nazis and subsequently run over by the train, whose driver is powerless to stop in time."
+And it was introduced in the <b>1960's</b>. Most articles mention that.
 
 Svartalfheim
+"In Gylfaginning 33, the "world of black-elves" is where the dwarfs are sought by the gods to craft the fetter Gleipnir to bind the wolf Fenrir."
+"n Norse Mythology, there are <b>nine</b> worlds, and these are divided into <b>three</b> levels."
+Svartalheim is the <b>7th of 9</b>.
 
 Quarks
-
-Kymlinge
+"Four separate experiments found a joint value for the top quark of <b>173.34 (+/- 0.76) gigaelectronvolts divided by the speed of light squared</b>, scientists announced Wednesday at a physics conference in Italy."
+http://math.ucr.edu/home/baez/physics/ParticleAndNuclear/gluons.html
+Theorized	Murray Gell-Mann (1964)
+George Zweig (1964)
+Discovered	SLAC (~1968)
+Types	6 (up, down, strange, charm, bottom, and top)
+Electric charge	+2⁄3 e, −1⁄3 e
+Color charge	Yes
+Spin	1⁄2
+Baryon number	1⁄3
+http://en.wikipedia.org/wiki/Quark
 
 
