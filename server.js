@@ -5,6 +5,8 @@ var express        = require('express');
 var app            = express();
 var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
+var cluster = require('cluster');
+var numCPUs = require('os').cpus().length;
 
 // configuration ===========================================
 
@@ -39,7 +41,20 @@ require('./app/routes')(app); // configure our routes
 
 // start app ===============================================
 // startup our app at http://localhost:8080
-app.listen(port);
+if (cluster.isMaster) {
+  // Fork workers.
+  for (var i = 0; i < numCPUs; i++) {
+    cluster.fork();
+  }
+
+  cluster.on('exit', function(worker, code, signal) {
+    console.log('worker ' + worker.process.pid + ' died');
+  });
+} else {
+  // Workers can share any TCP connection
+  // In this case its a HTTP server
+  app.listen(port);
+}
 
 // shoutout to the user
 console.log('Night gathers, and now my watch begins on port ' + port);
