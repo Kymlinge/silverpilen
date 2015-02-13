@@ -13,9 +13,10 @@ background-size: cover;
 }
 
 #countdown{
+  font-family: 'Oswald', sans-serif;
   text-align: center;
-  color: #666;
-  font-size: 40px;
+  padding: 12% 0;
+  font-size: 80px;
 }
 
 /*Set the background to a jpg and hide video if on mobile*/
