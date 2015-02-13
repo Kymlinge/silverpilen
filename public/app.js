@@ -8,7 +8,7 @@ app.controller( 'MainCtrl', function( $scope, $timeout, moment) {
     (function() {
       var ms = nextShowing.diff(moment());
       var d = moment.duration(ms);
-      var s = Math.floor(d.asDays()) + moment.utc(ms).format(":h:mm:ss");
+      var s = Math.floor(d.asDays()) + moment.utc(ms).format(":hh:mm:ss");
 
       $scope.timeLeft = s;
     }());
