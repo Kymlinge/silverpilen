@@ -1,3 +1,5 @@
+https://codeship.com/projects/10cdc440-9569-0132-d4fc-466960a0e7d2/status?branch=master
+
 # silverpilen
 
 Tanner is the *main* character and he is trying to separate from his other pair, dan
