@@ -2,7 +2,7 @@ var app = angular.module('myApp', ['angularMoment']);
 
 app.controller( 'MainCtrl', function( $scope, $timeout, moment) {
   $scope.timeLeft;
-  nextShowing = moment().set({'day': 7, 'hour': 1, 'minute': 13});
+  nextShowing = moment().set({'day': 8, 'hour': 1, 'minute': 13});
 
   $scope.onTimeout = function(){
     (function() {
