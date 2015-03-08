@@ -9,6 +9,9 @@ $(document).ready(function(){
   for(var i = 0;i<24;i++){
     $('.container3').append('<div class="hours" />');
   }
+  for(var i = 0;i<7;i++){
+    $('.container4').append('<div class="days" />');
+  }
 
   var deg = 264;
   for(var i = 1;i<61;i++){
@@ -30,13 +33,23 @@ $(document).ready(function(){
     });
 
   }
-  console.log('translatex is 110px');
+
   var deg3 = 264;
   for(var i = 1;i<25;i++){
     deg3=deg3+15;
-    console.log(deg3+'deg');
+
     $('.hours:nth-child('+i+')').css({
       '-webkit-transform' : 'rotate('+deg3+'deg) translatex(97px)',
+      'opacity' : '0.1'
+    });
+  }
+
+  var deg4 = 264;
+  for(var i = 1;i<8;i++){
+    deg3=deg3+51.42;
+
+    $('.days:nth-child('+i+')').css({
+      '-webkit-transform' : 'rotate('+deg3+'deg) translatex(42px)',
       'opacity' : '0.1'
     });
   }
@@ -58,6 +71,8 @@ $(document).ready(function(){
     //var h = d.getHours()-12;
     var m = d.getMinutes();
     var s = d.getSeconds();
+
+    var days = 3;
     for(var i = 1;i<=s+1;i++){
       if(s===0){
         $('.seconds').css({
@@ -90,6 +105,18 @@ $(document).ready(function(){
         });
       }
       $('.hours:nth-child('+i+')').css({
+
+        'opacity' : '1'
+      });
+    }
+    for(var i = 1;i<=days+1;i++){
+      if(days===0){
+        $('.days').css({
+
+          'opacity' : '0.1'
+        });
+      }
+      $('.days:nth-child('+i+')').css({
 
         'opacity' : '1'
       });
