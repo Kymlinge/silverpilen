@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: #333336;
+}
+.container1{
+  position: absolute;
+  left:50%;
+  top:50%;
+}
+.seconds{
+  position:absolute;
+  width:40px;
+  height: 7px;
+  border-radius: 10px;
+  background: #FF3300;
+  box-shadow: 0 0 1em 0.13em #9B120C;
+}
+.container2{
+  position: absolute;
+  left:50%;
+  top:50%;
+}
+.minutes{
+  position:absolute;
+  width:40px;
+  height: 7px;
+  border-radius: 10px;
+  background: #FF3300;
+  box-shadow: 0 0 1em 0.13em #9B120C;
+}
+.container3{
+  position: absolute;
+  left:50%;
+  top:50%;
+}
+.hours{
+  position:absolute;
+  width:40px;
+  height: 7px;
+  border-radius: 10px;
+  background: #FF3300;
+  box-shadow: 0 0 1em 0.13em #9B120C;
+}

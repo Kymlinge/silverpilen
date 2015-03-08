@@ -5,9 +5,12 @@
   <meta name="google-site-verification" content="PjALf0DjnBQu9t6WyEOI03dWTg3fxFY1RiQjOYAY7G4" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="countdown.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="countdown.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.min.js"></script>
   <script type="text/javascript">
@@ -22,12 +25,15 @@
     <source src="background.MOV" type="video/mov">
     <source src="background.mp4" type="video/mp4">
   </video>
-  <p id="title">SVARTALFHEIM</p>
-  <p id="countdown">
-    {{timeLeft}}
-  </p>
-  <audio autoplay="autoplay" loop="loop">
+  <!-- <p class="episode-selection" ng-click="goToEp1()">
+    EPISODE 1
+  </p> -->
+  <div class='container1'></div>
+  <div class='container2'></div>
+  <div class='container3'></div>
+
+  <!-- <audio autoplay="autoplay" loop="loop">
      <source src="LANDR-Scary2.mp3" />
-  </audio>
+  </audio> -->
 </body>
 </html>
