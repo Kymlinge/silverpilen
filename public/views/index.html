@@ -2,12 +2,14 @@
 <html>
 <head>
   <title>Silverpilen</title>
+  <base href="/">
   <meta name="google-site-verification" content="PjALf0DjnBQu9t6WyEOI03dWTg3fxFY1RiQjOYAY7G4" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="countdown.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
   <script type="text/javascript" src="countdown.js"></script>
@@ -27,15 +29,15 @@
   </video>
 
   <div class="episode-buttons" ng-show="portalOpen">
-    <p class="episode-selection left" ng-click="goToEp1()">
+    <p class="episode-selection left" ng-click="go('/ep1')">
       I
     </p>
-    <p class="episode-selection right" ng-click="goToEp2()">
+    <p class="episode-selection right" ng-click="go('/ep2')">
       II
     </p>
   </div>
 
-  <div class="clock" ng-hide="portalOpen">
+  <div class="clock" ng-show="!portalOpen">
     <div class='container1'></div>
     <div class='container2'></div>
     <div class='container3'></div>
