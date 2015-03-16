@@ -36,4 +36,7 @@ var Nerd = require('./models/nerd');
            res.sendfile('./public/views/episode1.html'); // load our public/index.html file
        });
 
+       app.get('/ep2', function(req, res) {
+           res.sendfile('./public/views/episode2.html'); // load our public/index.html file
+       });
    };

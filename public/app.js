@@ -14,8 +14,11 @@ app.controller( 'MainCtrl', function( $scope, $timeout, moment) {
   }
 
   $scope.onTimeout = function(){
+    nextShowing = moment().set({'day': '0', 'hours': 21, 'minutes': 00, 'seconds': 00});
 
-    nextShowing = moment().set({'day': '0', 'hours': 23, 'minutes': 00, 'seconds': 00});
+    if(moment().isAfter(nextShowing)){
+      $scope.portalOpen = true;
+    }
 
     var secondsLeft = Math.floor(nextShowing.diff(moment()) / 1000);
 

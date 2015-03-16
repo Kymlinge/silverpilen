@@ -28,6 +28,7 @@ background-size: cover;
 }
 
 .episode-selection{
+  transition: all 0.3s ease;
   display: inline-block;
   border: 5px solid;
   font-family: 'Oswald', sans-serif;
@@ -37,6 +38,11 @@ background-size: cover;
   width: 320px;
   margin: 0 auto;
 }
+.episode-selection:hover{
+  border-color: #fff;
+  color: white;
+}
+
 .episode-selection.left{
   float: left;
 }
@@ -70,6 +76,6 @@ background-size: cover;
 
 /*Set the background to a jpg and hide video if on mobile*/
 @media screen and (max-device-width: 800px) {
-body { background: url(backup.jpg) #000 no-repeat center center fixed; }
+body { background-color: black; }
 #bgvid { display: none; }
 }
