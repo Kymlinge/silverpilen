@@ -29,7 +29,7 @@ app.controller( 'MainCtrl', function( $scope, $timeout, moment, $location, $rout
   };
 
   $scope.onTimeout = function(){
-    nextShowing = moment().set({'day': '0', 'hours': 21, 'minutes': 00, 'seconds': 00});
+    nextShowing = moment().set({'hours': 23, 'minutes': 00, 'seconds': 00});
 
     if(moment().isAfter(nextShowing)){
       $scope.portalOpen = true;
