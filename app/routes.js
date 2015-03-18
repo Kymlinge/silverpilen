@@ -31,12 +31,4 @@ var Nerd = require('./models/nerd');
        app.get('/', function(req, res) {
            res.sendfile('./public/views/index.html'); // load our public/index.html file
        });
-
-       app.get('/ep1', function(req, res) {
-           res.sendfile('./public/views/episode1.html'); // load our public/index.html file
-       });
-
-       app.get('/ep2', function(req, res) {
-           res.sendfile('./public/views/episode2.html'); // load our public/index.html file
-       });
    };

@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+  console.log('jquery loaded', $('.container1'))
   for(var i = 0;i<60;i++){
     $('.container1').append('<div class="seconds" />');
   }
