@@ -34,7 +34,7 @@ var svartalfheim = angular.module('svartalfheim', ['ngRoute', 'angularMoment']);
     }
 
     $scope.onTimeout = function(){
-      nextShowing = moment().set({'hours': 14, 'minutes': 00, 'seconds': 00});
+      nextShowing = moment().set({'hours': 23, 'minutes': 00, 'seconds': 00});
 
       if(moment().isAfter(nextShowing)){
         $scope.portalOpen = true;
