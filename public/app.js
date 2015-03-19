@@ -57,7 +57,7 @@ var svartalfheim = angular.module('svartalfheim', ['ngRoute', 'angularMoment']);
       for(var i = 0;i<60;i++){
         $('.container2').append('<div class="minutes" />');
       }
-      for(var i = 0;i<24;i++){
+      for(var i = 0;i<23;i++){
         $('.container3').append('<div class="hours" />');
       }
 
@@ -83,7 +83,7 @@ var svartalfheim = angular.module('svartalfheim', ['ngRoute', 'angularMoment']);
       }
 
       var deg3 = 264;
-      for(var i = 1;i<25;i++){
+      for(var i = 1;i<24;i++){
         deg3=deg3+15;
 
         $('.hours:nth-child('+i+')').css({
@@ -100,15 +100,17 @@ var svartalfheim = angular.module('svartalfheim', ['ngRoute', 'angularMoment']);
 
         if(d.getHours()>12){
           var time = d.getHours()-12 + ":" + d.getMinutes() + ":" + d.getSeconds();
-          var h = d.getHours()-12;
+          var h = d.getHours();
         }else{
           var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
           var h = d.getHours();
         }
 
-        //var h = d.getHours()-12;
+        var h = d.getHours();
         var m = d.getMinutes();
         var s = d.getSeconds();
+        console.log('this is h from the jquery: ', h)
+        console.log('this is m from the jquery: ', m)
 
         for(var i = 1;i<=s+1;i++){
           if(s===0){

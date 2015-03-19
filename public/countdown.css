@@ -8,8 +8,8 @@
   width:40px;
   height: 7px;
   border-radius: 10px;
-  background: #FF3300;
-  box-shadow: 0 0 1em 0.13em #9B120C;
+  background: white;
+  box-shadow: 0 0 1em 0.13em #DDDDDD;
 }
 .container2{
   position: absolute;
@@ -21,8 +21,8 @@
   width:40px;
   height: 7px;
   border-radius: 10px;
-  background: #FF3300;
-  box-shadow: 0 0 1em 0.13em #9B120C;
+  background: white;
+  box-shadow: 0 0 1em 0.13em #DDDDDD;
 }
 .container3{
   position: absolute;
@@ -34,8 +34,8 @@
   width:40px;
   height: 7px;
   border-radius: 10px;
-  background: #FF3300;
-  box-shadow: 0 0 1em 0.13em #9B120C;
+  background: white;
+  box-shadow: 0 0 1em 0.13em #DDDDDD;
 }
 .container4{
   position: absolute;
@@ -47,6 +47,6 @@
   width:40px;
   height: 7px;
   border-radius: 10px;
-  background: #FF3300;
-  box-shadow: 0 0 1em 0.13em #9B120C;
+  background: white;
+  box-shadow: 0 0 1em 0.13em #DDDDDD;
 }

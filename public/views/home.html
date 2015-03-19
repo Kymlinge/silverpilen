@@ -3,7 +3,7 @@
   <source src="background.mp4" type="video/mp4">
 </video>
 
-<div class="episode-buttons" ng-show="portalOpen">
+<div class="episode-buttons" ng-class="{'open': portalOpen}">
   <p class="episode-selection left" ng-click="go('/ep1')">
     I
   </p>
@@ -12,7 +12,7 @@
   </p>
 </div>
 
-<div class="clock" ng-hide="portalOpen">
+<div class="clock" ng-class="{'open': !portalOpen}">
   <div class='container1'></div>
   <div class='container2'></div>
   <div class='container3'></div>

@@ -20,11 +20,28 @@ background-size: cover;
 }
 
 .episode-buttons{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.5s, opacity 0.5s;
   height: 150px;
   width: 75%;
   position: absolute;
   top: 40%;
   left: 16%;
+}
+.episode-buttons.open{
+  visibility: visible;
+  opacity: 1;
+}
+
+.clock{
+  visibility:hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.5s, opacity 0.5s;
+}
+.clock.open{
+  visibility: visible;
+  opacity: 1;
 }
 
 .episode-selection{
