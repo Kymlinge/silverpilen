@@ -109,8 +109,6 @@ var svartalfheim = angular.module('svartalfheim', ['ngRoute', 'angularMoment']);
         var h = d.getHours();
         var m = d.getMinutes();
         var s = d.getSeconds();
-        console.log('this is h from the jquery: ', h)
-        console.log('this is m from the jquery: ', m)
 
         for(var i = 1;i<=s+1;i++){
           if(s===0){

@@ -5,6 +5,29 @@ width: auto; height: auto; z-index: -100;
 background-size: cover;
 }
 
+footer{
+  margin-bottom: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+footer img{
+  height: 50px;
+}
+footer ul li{
+  text-align: center;
+}
+
+i.support{
+  transition: all 0.3s ease;
+  font-size: 50px;
+  color: #333;
+}
+i.support:hover{
+  border-color: white;
+  color: white;
+}
+
 #title {
   font-family: 'Oswald', sans-serif;
   text-align: center;
