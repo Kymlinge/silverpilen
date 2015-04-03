@@ -14,10 +14,10 @@
 </video>
 
 <div class="episode-buttons" ng-class="{'open': portalOpen}">
-  <p class="episode-selection left" ng-click="go('/ep1')">
+  <p class="episode-selection left" onclick="ga('send','event','Episode 1','/ep1')" ng-click="go('/ep1')">
     I
   </p>
-  <p class="episode-selection right" ng-click="go('/ep2')">
+  <p class="episode-selection right" onclick="ga('send','event','Episode 2','/ep2')" ng-click="go('/ep2')">
     II
   </p>
 </div>
@@ -31,7 +31,7 @@
 <footer>
   <ul>
     <li>
-      <a href="https://open.spotify.com/album/3YIzFagg4KrSPojdLNPqse" target="_blank">
+      <a onclick="ga('send','event','Spotify','https://open.spotify.com/album/3YIzFagg4KrSPojdLNPqse')" href="https://open.spotify.com/album/3YIzFagg4KrSPojdLNPqse" target="_blank">
         <i class="fa fa-spotify support"></i>
       </a>
     </li>
